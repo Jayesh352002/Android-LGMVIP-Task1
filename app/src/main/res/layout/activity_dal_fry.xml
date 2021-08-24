@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta"
+        android:background="#E56717">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dal Fry "
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/dalfry"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="दाल फ्राई रेसिपी - Dal Fry Recipe In Hindi"
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="20dp"
+            android:text="सामग्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:textSize="15dp"
+            android:text="घी , प्रयोग अनुसार"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp"
+            android:text="1 छोटा चमच्च हींग"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:textSize="15dp"
+            android:text="1 छोटा चमच्च जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:text="1 छोटा चमच्च राइ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:textSize="15dp"
+            android:text="1 तेज पत्ता , तोड़ी हुई"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:textSize="15dp"
+            android:text="3 हरी मिर्च , नमक वाली"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textSize="15dp"
+            android:text="4 लॉन्ग"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textSize="15dp"
+            android:text="1 बड़ी इलाइची"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:text="1 स्टार अनीस"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:textSize="15dp"
+            android:text="2 प्याज , पतले और सीधे कटे हुए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:textSize="15dp"
+            android:text="1 टमाटर , बारीक कटे हुए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:text="1-1/2 बड़ा चमच्च अदरक लहसुन का पेस्ट "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:textSize="15dp"
+            android:text="1 छोटा चमच्च लाल मिर्च पाउडर "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:text="1 छोटा चमच्च धनिया पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:textSize="15dp"
+            android:text="3 छोटा चमच्च हरी मिर्च"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:textSize="15dp"
+            android:text="1 टहनी हरा धनिया , बारीक कटे हुए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:textSize="15dp"
+            android:text="दाल के लिए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:textSize="15dp"
+            android:text="2 बड़ा चमच्च अरहर दाल"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:textSize="15dp"
+            android:text="2 बड़ा चमच्च चना दाल"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp"
+            android:textSize="15dp"
+            android:text="2 बड़ा चमच्च मसूर दाल "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:textSize="15dp"
+            android:text="2 बड़ा चमच्च सफेद उरद दाल (split)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:textSize="15dp"
+            android:text="2 बड़ा चमच्च पिली मूंग दाल "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:textSize="15dp"
+            android:text="पानी , प्रयोग अनुसार"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="840dp"
+            android:textSize="15dp"
+            android:text="नमक , स्वाद अनुसार"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="860dp"
+            android:textSize="15dp"
+            android:text="1-1/2 हल्दी पाउडर"/>
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="920dp"
+            android:textSize="20dp"
+            android:text="बनाने की विधि - How to make Dal Fry Recipe "/>
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s1"
+            android:layout_marginTop="10dp"
+            android:text="ढाबा स्टाइल दाल फ्राई बनाने के लिए सबसे पहले सारी दालो को उबाल ले. दालो को प्रेशर कुकर में डाले और इसमें 1/2 चमच्च हल्दी पाउडर और नमक डाले। दालो को 3 सिटी बजने तक पकाए। एक बार प्रेशर निकल जाए, कुकर खोले और दाल को मिला ले. अलग से रख ले. "/>
+
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s2"
+            android:layout_marginTop="10dp"
+            android:text="एक कढ़ाई में तेल गरम करें। उसमे हींग, जीरा, राइ डाले और 10 सेकण्ड्स तक पकने दे. 10 सेकण्ड्स के बाद, उसमे कढ़ी पत्ता, बड़ी इलाईची, इलाईची, स्टार अनीस, लॉन्ग और नमक वाली हरी मिर्च डाले। "/>
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s3"
+            android:layout_marginTop="10dp"
+            android:text="30 सेकण्ड्स तक पकने दे और फिर हरी मिर्च और अदरक लहसुन का पेस्ट डाले। 1 मिनट तक पकने दे. 1 मिनट के बाद, प्याज डाले और भूरा होने तक पकाए। भूरा होने के बाद, इसमें टमाटर, हल्दी पाउडर, लाल मिर्च पाउडर, धनिया पाउडर और नमक डाले। "/>
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s4"
+            android:layout_marginTop="10dp"
+            android:text="थोड़ा पानी डाले और 5 से 8 मिनट तक पकाए। मसाला अच्छी तरह से पकने के बाद इसमें पकी हुई दाल डाले। 8 से 10 मिनट तक पकने दे, गैस बंद करें और हरे धनिए से गार्निश करें। ढाबा स्टाइल दाल फ्राई को सेव टमाटर की सब्ज़ी और फुल्के के साथ दिन के खाने के लिए परोसे।"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video on Dal Fry Recipe"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/s5"
+            android:drawableLeft="@drawable/ic_video"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Play Video"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"
+            android:drawableLeft="@drawable/ic_video"
+            android:id="@+id/b1"/>
+    </RelativeLayout>
+</ScrollView>

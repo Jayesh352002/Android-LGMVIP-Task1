@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title=""
+    app:showAsAction="always"
+    android:id="@+id/m1"
+    android:icon="@drawable/ic_baseline_menu_24">
+    <menu>
+        <item
+            android:title="Lunch"
+            android:id="@+id/lunch"
+            app:showAsAction="always"/>
+        <item
+            android:title="Dinner"
+            android:id="@+id/dinner"
+            app:showAsAction="always"/>
+        <item
+            android:title="Breakfast"
+            android:id="@+id/breakfast"
+            app:showAsAction="always"/>
+        <item
+            android:title="FastFood"
+            android:id="@+id/fastfood"
+            app:showAsAction="always"/>
+        <item
+            android:title="Mexican"
+            android:id="@+id/mexio"
+            app:showAsAction="always"/>
+
+
+    </menu>
+    </item>
+
+</menu>

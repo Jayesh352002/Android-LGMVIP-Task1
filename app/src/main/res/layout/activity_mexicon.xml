@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".lunchRecipes"
+        android:background="#0336FF">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mexicon Food Dishes"
+            android:textSize="26dp"
+            android:background="@color/teal_200"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:id="@+id/secondary"/>
+    <TextView
+        android:id="@+id/not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondary"
+        android:layout_marginTop="5dp"
+        android:text="Please Make Sure that your Internet is On "
+        android:textSize="12sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/not"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/not"
+            android:id="@+id/recycler_view"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>

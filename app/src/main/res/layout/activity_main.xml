@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ℝ𝕖𝕔𝕚𝕡𝕖𝕤 𝔹𝕠𝕠𝕜"
+        android:textSize="44sp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@mipmap/food2"
+        android:drawableRight="@mipmap/food2"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_below="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M̳a̳k̳e̳ ̳a̳ ̳F̳o̳o̳d̳ ̳a̳s̳ ̳Y̳o̳u̳r̳ ̳C̳h̳o̳i̳c̳e̳"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#0099CC"/>
+
+</RelativeLayout>
+

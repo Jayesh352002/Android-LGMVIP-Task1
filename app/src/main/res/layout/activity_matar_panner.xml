@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta"
+        android:background="#E56717">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matar Panner "
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ma"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="मटर पनीर रेसिपी | matar paneer in hindi"
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="20dp"
+            android:text="सामग्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:textSize="15dp"
+            android:text="प्याज टमाटर के पेस्ट के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp"
+            android:text="2 टेबल स्पून तेल"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:textSize="15dp"
+            android:text="1 प्याज, कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:text="3 पुत्थी लहसुन, कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:textSize="15dp"
+            android:text="3 पुत्थी लहसुन, कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:textSize="15dp"
+            android:text="3 टमाटर, कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textSize="15dp"
+            android:text="अन्य अवयव:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textSize="15dp"
+            android:text="2 टेबल स्पून तेल"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:text="1 तेज पत्ती"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:textSize="15dp"
+            android:text="1 इंच दालचीनी स्टिक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:textSize="15dp"
+            android:text="2 फली इलायची"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:textSize="15dp"
+            android:text="¼ टी स्पून हल्दी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून कश्मीरी लाल मिर्च पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:textSize="15dp"
+            android:text="1 टेबल स्पून बेसन"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:textSize="15dp"
+            android:text="¼ टी स्पून जीरा पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून धनिया पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून नमक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:textSize="15dp"
+            android:text="1 कप पानी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp"
+            android:textSize="15dp"
+            android:text="1 कप मटर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:textSize="15dp"
+            android:text="12 क्यूब्स पनीर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:textSize="15dp"
+            android:text="2 टेबल स्पून धनिया, बारीक कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:textSize="15dp"
+            android:text="¼ टी स्पून गरम मसाला"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="840dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून कसूरी मेथी, कुचला हुआ"/>
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="900dp"
+            android:textSize="20dp"
+            android:text="बनाने की विधि - How to make मटर पनीर रेसिपी (Matar Panner)"/>
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s1"
+            android:layout_marginTop="10dp"
+            android:text="सबसे पहले, एक तवा में 2 बड़े चम्मच तेल को गरम करें और 1 प्याज, 3 लौंग लहसुन और 1 इंच अदरक डालें और तलिये। 3 टमाटर भी डालें और टमाटर के नरम होने तक तलिये। ढककर 10 मिनट या टमाटर के नरम होने तक पकाएं।"/>
+
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s2"
+            android:layout_marginTop="10dp"
+            android:text="इसे पूरी तरह से ठंडा करें और चिकनी पेस्ट होने तक ब्लेंड करें। एक तरफ रख दे। एक बड़ी कड़ाई में 2 बड़े चम्मच तेल डालकर गरम करें और 1 तेज पत्ती, 1 इंच दालचीनी स्टिक, 2 फली इलायची और 1 टीस्पून जीरा डालके तलिये। धीमी आंच पर रखना और ¼ टीस्पून हल्दी, 1 टीस्पून मिर्च पाउडर और 1 टेबलस्पून बेसन डालें ।"/>
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s3"
+            android:layout_marginTop="10dp"
+            android:text="धीमी आंच पर भूनें जब तक कि मसाले सुगंधित न हो जाएं। तैयार प्याज़ टमाटर के पेस्ट को डालें और अच्छी तरह से भूनें। जब तक पेस्ट गाढ़ा न हो और उससे तेल अलग न हो जाए, तब तक इसे तलिये।"/>
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s4"
+            android:layout_marginTop="10dp"
+            android:text="आगे ¼ टीस्पून जीरा पाउडर, 1 टीस्पून धनिया पाउडर और 1 टीस्पून नमक डालें। जब तक मसाला खुशबूदार न हो जाए, तब तक तलें। अब 1 कप पानी डालें और अच्छी तरह से हिलाएं। ग्रेवी चिकनी होने तक हिलाएं।"/>
+        <TextView
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s5"
+            android:layout_marginTop="10dp"
+            android:text="1 कप मटर डालें और अच्छी तरह से हिलाएं। ढककर 10 मिनट या तब तक पकाएं जब तक कि मटर अच्छे से पक न जाए। 12 क्यूब्स पनीर डालें और धीरेसे हिलाएं।"/>
+        <TextView
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s6"
+            android:text="ढककर और 10 मिनट के लिए या तेल तैरने तक उबाल लें। अब इसमें 2 टेबलस्पून धनिया, ¼ टीस्पून गरम मसाला और 1 टीस्पून कसूरी मेथी डालें। अंत में, रोटी या चावल के साथ मटर पनीर का आनंद लें।"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s7"
+            android:text="Video on Matar Panner Recipe"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_video"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Play Video"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"
+            android:drawableLeft="@drawable/ic_video"
+            android:id="@+id/b1"/>
+    </RelativeLayout>
+</ScrollView>

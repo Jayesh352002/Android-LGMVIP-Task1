@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner Recipe - Triple Fried Sejhwan Rice"
+            android:textSize="24dp"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/friedrice"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triple Fried Sejwan Rice recipe in Hindi"
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"/>
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="6qB32bzWNsA"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="350dp"/>
+        <WebView
+            android:id="@+id/webview"
+            android:layout_marginTop="620dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta"
+        android:background="#E56717">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veg Kolhapuri "
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/vegkol"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="वेज कोल्हापुरी - Veg Kolhapuri Recipe"
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="20dp"
+            android:text="सामग्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:textSize="15dp"
+            android:text="गाजर - 1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp"
+            android:text="आलू - 1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:textSize="15dp"
+            android:text="शिमला मिर्च - 1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:text="फूल गोभी - 1 कप"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:textSize="15dp"
+            android:text="टमाटर - 3 (150 ग्राम)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:textSize="15dp"
+            android:text="अदरक - 1 इंच टुकडा़"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textSize="15dp"
+            android:text="मटर - ¼ कप"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textSize="15dp"
+            android:text="सूखा नारियल - ¼ कप कद्दूकस किया हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:text="तेल - सब्जियां तलने और सब्जी बनाने के लिए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:textSize="15dp"
+            android:text="हरा धनिया - 2-3 बडे़ चम्मच"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:textSize="15dp"
+            android:text="क्रीम - ½ कप"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:text="हींग - 1 पिंच"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:textSize="15dp"
+            android:text="जीरा -½ छोटी चम्मच"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:text="हल्दी पाउडर - ¼ छोटी चम्मच"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:textSize="15dp"
+            android:text="धनिया पाउडर - 1 छोटी चम्मच"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:textSize="15dp"
+            android:text="गरम मसाला - ¼ छोटी चम्मच"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:textSize="15dp"
+            android:text="लाल मिर्च साबुत - 2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:textSize="15dp"
+            android:text="तिल - 1 टेबल स्पून"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:textSize="15dp"
+            android:text="नमक - 1 छोटी चम्मच या स्वादानुसार"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp"
+            android:textSize="15dp"
+            android:text="लाल मिर्च पाउडर - ½ छोटी चम्मच"/>
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:textSize="20dp"
+            android:text="बनाने की विधि - How to make वेज कोल्हापुरी (Veg Kolhapuri)"/>
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s1"
+            android:layout_marginTop="10dp"
+            android:text="सब्जियों को धोकर, छोटा छोटा काट लीजिये. टमाटर, हरी मिर्च और अदरक को धोइये और मिक्सी में पीस कर पेस्ट लीजिये."/>
+
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s2"
+            android:layout_marginTop="10dp"
+            android:text="कढ़ाई में तेल डाल कर गरम कीजिये. गरम तेल में कटे हुए आलू डालिये और हाई मीडियम आग पर हल्के ब्राउन होने तक तल कर निकाल लीजिये, गोभी, गाजर और शिमला मिर्च बारी-बारी से हल्की ब्राउन होने तक तल लीजिए और एक प्याले में निकालते जाइये."/>
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s3"
+            android:layout_marginTop="10dp"
+            android:text="कढा़ई में 2 चम्मच तेल डालकर गरम कीजिए, गरम तेल में हींग, हल्दी पाउडर, धनियां पाउडर डाल कर मसाले को हल्का सा भून लीजिए. अब इसमें टमाटर और अदरक का पेस्ट डाल दीजिए. लाल मिर्च पाउडर और साबुत लाल मिर्च भी डाल कर तब तक भूनिये जब तक, मसाला तेल न छोड़ने लगे, मसाला भून जाने पर इसमें तिल, जीरा और नारियल का पाउडर डाल दीजिए. हल्का सा भूनिये, अब क्रीम डाल कर मसाले को लगातार चलाते हुये 2-3 मिनिट और भूनिये."/>
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s4"
+            android:layout_marginTop="10dp"
+            android:text="मसाले से तेल अलग होने पर इसमें मटर के दाने डाल दीजिए व थोडा़ सा 2-3 मिनिट, मटर के नरम होने तक, भून लीजिए. इसमें आधा या पौनकप पानी डाल दीजिए, नमक और गरम मसाला डाल कर मिक्स कर लीजिए.ग्रेवी में उबाल आने पर तली हुई सब्जियों को इसमें डाल दीजिए और मिक्स करके सब्जी को ढककर 3 मिनिट के लिए पकने दीजिए. 3 मिनिट बाद सब्जी को चैक करें, सब्जी बनकर तैयार है, इसमें हरा धनिया डाल कर मिला दीजिए"/>
+        <TextView
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s5"
+            android:layout_marginTop="10dp"
+            android:text="सब्जी को प्याले में निकालिये. हरा धनियां सब्जी के ऊपर डाल कर सजाइये. गरमा गरम मिक्स वेज सब्जी को परांठे, नान, चपाती या चावल के साथ परोसिये और खाइये."/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video on Veg Kolhapuri Recipe"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/s6"
+            android:drawableLeft="@drawable/ic_video"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Play Video"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"
+            android:drawableLeft="@drawable/ic_video"
+            android:id="@+id/b1"/>
+    </RelativeLayout>
+</ScrollView>

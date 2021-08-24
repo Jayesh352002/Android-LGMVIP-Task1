@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0336FF">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lunchRecipes"
+    android:background="#0336FF">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerMain"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#0336FF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunch Menu"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:id="@+id/head"/>
+    <TextView
+        android:id="@+id/not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_marginTop="5dp"
+        android:text="Please Make Sure that your Internet is On "
+        android:textSize="12sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/not"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Select Primary Ingrdient"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/secondary"
+        android:textColor="@color/black"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/secondary"
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
+</ScrollView>

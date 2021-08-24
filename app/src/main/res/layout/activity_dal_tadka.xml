@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta"
+        android:background="#E56717">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dal Tadka "
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/dal"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="दाल तड़का रेसिपी | dal tadka in hindi |"
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:textSize="20dp"
+            android:text="सामग्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:textSize="15dp"
+            android:text="प्रेशर कुकिंग के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:textSize="15dp"
+            android:text="½ कप तूर दाल, साफ किया हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp"
+            android:text="2 टेबलस्पून मसूर की दाल, साफ किया हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:textSize="15dp"
+            android:text="¼ टीस्पून हल्दी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:text="½ टीस्पून नमक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:textSize="15dp"
+            android:text="1 टीस्पून तेल"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:textSize="15dp"
+            android:text="1½ कप पानी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textSize="15dp"
+            android:text="दाल के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textSize="15dp"
+            android:text="2 टेबलस्पून घी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:text="½ टीस्पून जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:textSize="15dp"
+            android:text="1 बे पत्ती / तेज पत्ता"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:textSize="15dp"
+            android:text="चुटकी हिंग"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:text="2 सूखी लाल मिर्च"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:textSize="15dp"
+            android:text="2 पुत्थी लहसुन, पिसा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:text="1 इंच अदरक, पिसा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:textSize="15dp"
+            android:text="1 मिर्च, चीरा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:textSize="15dp"
+            android:text="1 प्याज, बारीक कटा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:textSize="15dp"
+            android:text="¼ टीस्पून हल्दी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:textSize="15dp"
+            android:text="½ टीस्पून कश्मीरी लाल मिर्च पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:textSize="15dp"
+            android:text="½ टीस्पून धनिया पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp"
+            android:textSize="15dp"
+            android:text="½ टीस्पून नमक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:textSize="15dp"
+            android:text="1 टमाटर, बारीक कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:textSize="15dp"
+            android:text="2 टेबलस्पून धनिया, बारीक कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:textSize="15dp"
+            android:text="1 टीस्पून कसूरी मेथी, पिसा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="840dp"
+            android:textSize="15dp"
+            android:text="¼ टीस्पून गरम मसाला"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="860dp"
+            android:textSize="15dp"
+            android:text="तड़का के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="880dp"
+            android:textSize="15dp"
+            android:text="1 टीस्पून घी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="900dp"
+            android:textSize="15dp"
+            android:text="½ टीस्पून जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="920dp"
+            android:textSize="15dp"
+            android:text="चुटकी हिंग"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="940dp"
+            android:textSize="15dp"
+            android:text="1 सूखी लाल मिर्च"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="960dp"
+            android:textSize="15dp"
+            android:text="¼ टीस्पून कश्मीरी लाल मिर्च पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="980dp"
+            android:textSize="15dp"
+            android:text="1 टीस्पून धनिया, बारीक कटा हुआ"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1020dp"
+            android:textSize="20dp"
+            android:text="बनाने की विधि - How to make दाल तड़का (dal tadka)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="1080dp"
+            android:text="सबसे पहले, प्रेशर कुकर में, ½ कप तूर दाल, 2 टेबलस्पून मसूर दाल लें। आप चाहें तो मूंग दाल भी डाल सकते हैं। ¼ टीस्पून हल्दी, ½ टीस्पून नमक, 1 टीस्पून तेल और 1½ कप पानी भी मिलाएं। 5 सीटी आने तक या दाल के अच्छे से पकने तक प्रेशर कुक करें। 1 कप पानी डालें और स्थिरता को समायोजित करें। एक तरफ रख दो।"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="1200dp"
+            android:text="अब एक बड़ी कड़ाई में 2 टेबलस्पून घी और ½ टीस्पून जीरा छिड़के( स्पलटर), 1 तेज पत्ता, चुटकी भर हिंग और 2 सूखी लाल मिर्च को डालें। 2 पुत्थी लहसुन, 1 इंच अदरक, 1 मिर्च को डालें और धीरे से तलिये। आगे 1 प्याज़ डालें और सुनहरा भूरा होने तक तलिये। धीमी आंच पर रखके ¼ टीस्पून हल्दी, ½ टीस्पून मिर्च पाउडर, ½ टीस्पून धनिया पाउडर और ½ टीस्पून नमक डालें। 1 टमाटर डालें और इसे नरम और गूदेदार होने तक तलिये।"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="1360dp"
+            android:text="पकी हुई दाल को डालें और आवश्यकतानुसार स्थिरता को समयोजित करते हुए अच्छी तरह से हिलाए। 5 मिनट के लिए या जब तक स्वाद अच्छी तरह से संयुक्त न हो जाए तब तक उबालें।"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="1460dp"
+            android:text="अब इसमें 2 टेबलस्पून धनिया, 1 टीस्पून कसूरी मेथी और ¼ टीस्पून गरम मसाला डालें। अच्छी तरह मिलाएं। अंत में, जीरा राइस या स्टीम्ड राइस के साथ दाल तड़का का आनंद लें।"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video on Dal Tadka Recipe"
+            android:layout_marginTop="1560dp"
+            android:drawableLeft="@drawable/ic_video"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Play Video"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"
+            android:drawableLeft="@drawable/ic_video"
+            android:id="@+id/b1"/>
+    </RelativeLayout>
+</ScrollView>

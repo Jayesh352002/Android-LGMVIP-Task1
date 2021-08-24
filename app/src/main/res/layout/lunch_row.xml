@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:background="@color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r1"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malai Kofta"
+            android:textColor="@color/black"
+            android:id="@+id/first"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/img_one"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/first"
+            android:src="@drawable/kofta"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Read Recipe"
+            android:textColor="@color/black"
+            android:id="@+id/apply"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            style="@android:style/Widget.Button"
+            android:layout_centerHorizontal="true"
+            android:background="#FEDBD0"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

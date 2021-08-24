@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0336FF">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0336FF">
+    <TextView
+        android:text="Dinner Menu"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/second"
+        android:textStyle="bold|italic"
+        android:background="@color/teal_200"/>
+    <TextView
+        android:id="@+id/not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_marginTop="5dp"
+        android:text="Please Make Sure that your Internet is On "
+        android:textSize="12sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/not"/>
+    <TextView
+        android:id="@+id/prim"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Select Primary Ingrdient"
+        android:textSize="20dp"
+        android:layout_below="@+id/second"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/prim"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/secondary"
+        android:textColor="@color/black"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/secondary"
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
+</ScrollView>

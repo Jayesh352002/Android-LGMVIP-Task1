@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta"
+        android:background="#E56717">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Channa Butter Masala "
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/channa"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="चना मसाला रेसिपी | Channa Butter Masala in hindi "
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="20dp"
+            android:text="सामग्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:textSize="15dp"
+            android:text="प्रेशर कुकिंग के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp"
+            android:text="1 कप छोले / चना"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:textSize="15dp"
+            android:text="पानी, भिगोने के लिए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:text="¼ टी स्पून बेकिंग सोडा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:textSize="15dp"
+            android:text="¾ टी स्पून नमक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:textSize="15dp"
+            android:text="3 कप पानी, प्रेशर कुकिंग के लिए"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textSize="15dp"
+            android:text="चना मसाला पाउडर के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textSize="15dp"
+            android:text="¼ कप धनिया के बीज"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:text="¼ कप जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:textSize="15dp"
+            android:text="2 टी स्पून काली मिर्च"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून लौंग"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:text="2 फली काली इलायची"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:textSize="15dp"
+            android:text="2 इंच दालचीनी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:text="1 जावित्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून सौंफ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून शाह जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:textSize="15dp"
+            android:text="10 सूखी लाल मिर्च"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:textSize="15dp"
+            android:text="2 टेबल स्पून आमचूर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:textSize="15dp"
+            android:text="2 टेबल स्पून कसूरी मेथी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून हल्दी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:textSize="15dp"
+            android:text="करी के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:textSize="15dp"
+            android:text="2 टेबल स्पून घी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:textSize="15dp"
+            android:text="3 फली इलायची"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="840dp"
+            android:textSize="15dp"
+            android:text="1 तेज पत्ती"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="860dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="880dp"
+            android:text="1 प्याज, बारीक कटा हुआ"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="900dp"
+            android:text="ब1 मिर्च, चीरा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="920dp"
+            android:text="1 टी स्पून अदरक लहसुन का पेस्ट"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="940dp"
+            android:text="½ टी स्पून नमक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="960dp"
+            android:text="2 कप टमाटर प्यूरी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="980dp"
+            android:text="2 टेबल स्पून धनिया, बारीक कटा हुआ"/>
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1040dp"
+            android:textSize="20dp"
+            android:text="बनाने की विधि - How to make Channa Butter Masala"/>
+
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/s1"
+            android:textSize="15dp"
+            android:text="सबसे पहले, एक बड़े कटोरे में 1 कप छोले लें और 8 घंटे के लिए पर्याप्त पानी में भिगोएँ। भीगे हुए चनों को प्रेशर कुकर में स्थानांतरित करें। ¼ टीस्पून बेकिंग सोडा, ¾ टीस्पून नमक और 3 कप पानी डालें। प्रेशर कुक को 5 से 6 सीटी तक या चना अच्छी तरह से पकने तक पकाएं।"/>
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/s2"
+            android:text="सबसे पहले, एक पैन में ¼ कप धनिया के बीज, ¼ कप जीरा, 2 टीस्पून काली मिर्च, 1 टीस्पून लौंग, 2 फली काली इलायची, 2 इंच दालचीनी, 1 जावित्री, 1 टीस्पून सौंफ, 1 टीस्पून शाह जीरा लें। धीमी आंच पर भूनें जब तक मसाला खुशबूदार न हो जाए। आगे 10 सूखी लाल मिर्च डालें और तब तक भूने जब तक मिर्च फूल कर कुरकुरे न हो जाए। पूरी तरह से ठंडा करें और मिक्सी में स्थानांतरित करें।"/>
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/s3"
+            android:text="2 टेबलस्पून आमचूर, 2 टेबलस्पून कसूरी मेथी और 1 टीस्पून हल्दी डालें। बिना पानी मिलाए बारीक पाउडर के लिए ब्लेंड करें। छोले मसाला पाउडर तैयार है। लंबे समय तक शैल्फ जीवन के लिए एक एयरटाइट कंटेनर में स्टोर करें।"/>
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/s4"
+            android:text="सबसे पहले, एक बड़ी कड़ाई में 2 टेबलस्पून घी को गरम करें और उसमें 3 फली इलायची, 1 तेज पत्ता, 1 टीस्पून जीरा डालें और मसाले को सुगंधित होने तक तलें। 1 प्याज, 1 मिर्च, 1 टीस्पून अदरक लहसुन का पेस्ट डालें और प्याज को सुनहरा भूरा होने तक तलें। इसके अलावा 1 टेबलस्पून तैयार छोले मसाला और ½ टीस्पून नमक के डालें। धीमी आंच पर तब तक तलें जब तक मसाला सुगंधित न हो जाए। अब 2 कप टमाटर प्यूरी डालें और अच्छी तरह मिलाएँ। टमाटर की प्यूरी तैयार करने के लिए, दो पके हुए टमाटरों को बिना किसी पानी जोड़े चिकनी पेस्ट के लिए ब्लेंड करें।"/>
+        <TextView
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/s5"
+            android:textSize="15dp"
+            android:text="जब तक मसाला पेस्ट से तेल अलग न हो जाए तब तक तलें। अब प्रेशर कुक हुआ चना उसमें मिलाएं और आवश्यकतानुसार अच्छी तरह से समायोजित स्थिरता मिलाएं। ढककर और 10 मिनट के लिए उबालें या जब तक कि फ्लेवर अच्छी तरह से अवशोषित न हो जाए। अंत में, 2 टेबलस्पून धनिया डालें और रोटी, पूरी या गर्म उबले चावल के साथ चना मसाला का आनंद लें।"/>
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s6"
+            android:text="Video on Channa Butter Masala Recipe"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_video"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Play Video"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"
+            android:drawableLeft="@drawable/ic_video"
+            android:id="@+id/b1"/>
+
+
+    </RelativeLayout>
+</ScrollView>

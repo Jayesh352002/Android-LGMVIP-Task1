@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MalaiKofta"
+        android:background="#E56717">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shahi Panner "
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/shahi"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="शाही पनीर रेसिपी | shahi paneer in hindi"
+            android:layout_marginTop="290dp"
+            android:textSize="23dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="20dp"
+            android:text="सामग्री"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:textSize="15dp"
+            android:text="प्याज टमाटर प्यूरी के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp"
+            android:text="1 टेबल स्पून मक्खन"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:textSize="15dp"
+            android:text="2 फली इलायची"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:text="1 इंच दालचीनी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:textSize="15dp"
+            android:text="1 फली काली इलायची"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:textSize="15dp"
+            android:text="3 लौंग"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textSize="15dp"
+            android:text="1 प्याज, कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:textSize="15dp"
+            android:text="3 पुत्थी लहसुन"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:text="1 इंच अदरक, कटा हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:textSize="15dp"
+            android:text="½ टी स्पून हल्दी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:textSize="15dp"
+            android:text="1 कप पानी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून नमक"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:textSize="15dp"
+            android:text="करी के लिए:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:text="1 टेबल स्पून मक्खन"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:textSize="15dp"
+            android:text="½ टी स्पून शाही जीरा"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:textSize="15dp"
+            android:text="1 बे पत्ती"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:textSize="15dp"
+            android:text="¼ टी स्पून हल्दी"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:textSize="15dp"
+            android:text="1 टी स्पून कश्मीरी लाल मिर्च पाउडर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:textSize="15dp"
+            android:text="¼ कप क्रीम / मलाई"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="760dp"
+            android:textSize="15dp"
+            android:text="15 क्यूब्स पनीर / कॉटेज चीस"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:textSize="15dp"
+            android:text="कुछ धागे केसर"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:textSize="15dp"
+            android:text="½ टी स्पून कसूरी मेथी, कुचला हुआ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:textSize="15dp"
+            android:text="¼ टी स्पून गरम मसाला"/>
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="900dp"
+            android:textSize="20dp"
+            android:text="बनाने की विधि - How to make काजू मसाला रेसिपी (Kaju Masala)"/>
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/s1"
+            android:text="सबसे पहले एक कडाई गरम में 1 बड़ा चम्मच मक्खन और 2 फली इलायची, 1 इंच दालचीनी, 1 फली काली इलायची और 3 लौंग को तलिये। अब 1 प्याज, 3 लौंग लहसुन और 1 इंच अदरक डालें। प्याज नरम होने तक थोड़ा तलिये।"/>
+
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/s2"
+            android:text="बइसके बाद, 2 टमाटर डालें और थोड़ा तलिये। इसके अलावा इसमें 1 कप पानी और 1 छोटा चम्मच नमक डालें। अच्छी तरह से मिलाएं। 20 मिनट के लिए या जब तक यह पूरी तरह से नरम न हो जाए तब तक ढककर उबालें।"/>
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/s3"
+            android:text="पूरी तरह से ठंडा करें और इसे एक ब्लेंडर में स्थानांतरित करें। किसी भी पानी को डालने के बिना चिकनी पेस्ट के लिए ब्लेंड करें। प्यूरी को छानना और सुनिश्चित करें कि प्यूरी चिकनी और रेशमी है। इसे एक तरफ रख दो। एक बड़ी कड़ाई में 1 बड़ा चम्मच मक्खन डालकर गरम करें। ½ चम्मच शाही जीरा और 1 तेज पत्ता को तलिये।"/>
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/s4"
+            android:text="धीमी आंच पर रकके ¼ टीस्पून हल्दी और 1 टीस्पून मिर्च पाउडर डालें।तब तक थोड़ा सा तलिये जब तक कि मसाले सुगंधित न हो जाएं। तैयार टमाटर-प्याज़ प्यूरी को डालें और अच्छी तरह मिलाएँ।"/>
+        <TextView
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s5"
+            android:layout_marginTop="10dp"
+            android:text="इसके बाद, ¼ कप क्रीम डालें और तब तक मिलाएं जब तक कि सब कुछ अच्छी तरह से संयुक्त न हो जाए। 15 क्यूब्स पनीर, कुछ धागे केसर को डालें और अच्छी तरह मिलाएं। 5 मिनट के लिए या जब तक कि जायके अच्छी तरह से अवशोषित न हो जाए ढककर उबालें।"/>
+
+        <TextView
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@+id/s6"
+            android:layout_marginTop="10dp"
+            android:text="अब ½ टीस्पून कसूरी मेथी और ¼ टीस्पून गरम मसाला डालें। अच्छी तरह मिलाएं। अंत में रोटी या लहसुन नान के साथ शाही पनीर का आनंद लें।"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video on Shahi Panner Recipe"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/s7"
+            android:drawableLeft="@drawable/ic_video"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Play Video"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="250dp"
+            android:drawableLeft="@drawable/ic_video"
+            android:id="@+id/b1"/>
+    </RelativeLayout>
+</ScrollView>
