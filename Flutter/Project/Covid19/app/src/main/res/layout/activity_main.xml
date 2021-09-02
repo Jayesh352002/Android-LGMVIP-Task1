@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#172CE5">
+
+    <TextView
+        android:id="@+id/lgm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="LGM"/>
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lgm"
+        android:layout_marginTop="12dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Covid-19 Tracker"/>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="480dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_2"
+        android:layout_below="@id/head">
+
+        <TextView
+            android:id="@+id/txt_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:textSize="32sp"
+            android:textColor="#FF000000"
+            android:textStyle="bold"
+            android:text="Select State"/>
+
+        <Spinner
+            android:id="@+id/spin_state"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="47dp"
+            android:background="@drawable/gradient_spinner" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="GO"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:backgroundTint="#F52A96"
+            android:onClick="Go"
+            android:layout_marginLeft="140dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
